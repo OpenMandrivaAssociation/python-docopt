@@ -2,7 +2,7 @@
 
 Name:		python-docopt
 Version:	0.6.2
-Release:	11
+Release:	12
 Summary:	Pythonic argument parser, that will make you smile
 
 License:	MIT
