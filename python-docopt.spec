@@ -2,14 +2,14 @@
 
 Name:		python-docopt
 Version:	0.6.2
-Release:	13
+Release:	14
 Summary:	Pythonic argument parser, that will make you smile
 
 License:	MIT
 URL:		https://github.com/docopt/docopt
 Source0:	%{url}/archive/%{version}/%{pypi_name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(python)
-BuildRequires:	python-setuptools
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildArch:      noarch
 
 %description
